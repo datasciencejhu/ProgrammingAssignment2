@@ -16,7 +16,7 @@ function in R. For example, if `X` is a square invertible matrix, then
 `solve(X)` returns its inverse.
 
 ### Test Scenario
-####> m = rbind(c(4, -1), c(-1, 4))
-####> y = makeCacheMatrix(m)
-####> y$get()
-####cacheSolve(y)
+> m = rbind(c(4, -1), c(-1, 4)) <br />
+> y = makeCacheMatrix(m) <br />
+> y$get() <br />
+> cacheSolve(y) <br />
